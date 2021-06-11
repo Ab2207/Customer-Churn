@@ -1,4 +1,4 @@
-# Customer-Churn
+# Customer Churn Predictor
 
 Steps involved in this project:
 
