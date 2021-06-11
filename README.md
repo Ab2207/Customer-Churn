@@ -1,6 +1,6 @@
 # Customer Churn Predictor
 
-Steps involved in this project:
+Steps involved in predicting customer churn:
 
 1. Using sqlalchemy library in Python, connected to PostgreSQL server and loaded the data from the database. 
 2. Data pre-processing and feature engineering was carried out using Pandas and Numpy. Checked for missing values, outliers, data distribution etc.
