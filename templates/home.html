@@ -1,1 +1,148 @@
+<html>
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+		<title>Churn Prediction</title>
+   <body>
+      <h1 style="text-align: center; color: black; font-weight: bold;"> Customer Churn Predictor </h1>
+	  <div class="container">
+		<div class="row">
 
+		  <form action="http://localhost:5000/" method="POST">
+		  	<div class="col-sm-9">
+			 <div class="form-group  purple-border">
+				  <label for="comment">Tenure:</label>
+				  <textarea style = "text-aling:left", class="form-control" rows="2" id="query1" name="query1" rows="1" cols="1" autofocus>{{query1}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">Warehouse Distance:</label>
+				  <textarea class="form-control" rows="2" id="query2" name="query2" rows="2" cols="5" autofocus>{{query2}}</textarea>
+			</div>
+
+			<div class="form-group  purple-border">
+				  <label for="comment">App Hours:</label>
+				  <textarea class="form-control" rows="2" id="query3" name="query3" rows="2" cols="5" autofocus>{{query3}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">No of Devices:</label>
+				  <textarea class="form-control" rows="2" id="query4" name="query4" rows="2" cols="5" autofocus>{{query4}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">Satisfaction Score:</label>
+				  <textarea class="form-control" rows="2" id="query5" name="query5" rows="2" cols="5" autofocus>{{query5}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">No of Address:</label>
+				  <textarea class="form-control" rows="2" id="query6" name="query6" rows="2" cols="5" autofocus>{{query6}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">Amount Hike:</label>
+				  <textarea class="form-control" rows="2" id="query7" name="query7" rows="2" cols="5" autofocus>{{query7}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">Order Count:</label>
+				  <textarea class="form-control" rows="2" id="query8" name="query8" rows="2" cols="5" autofocus>{{query8}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">LastOrder:</label>
+				  <textarea class="form-control" rows="2" id="query9" name="query9" rows="2" cols="5" autofocus>{{query9}}</textarea>
+			</div>
+			<div class="form-group  purple-border">
+				  <label for="comment">Cashback Amount:</label>
+				  <textarea class="form-control" rows="2" id="query10" name="query10" rows="2" cols="5" autofocus>{{query10}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment COD?:</label>
+				  <textarea class="form-control" rows="2" id="query11" name="query11" rows="2" cols="5" autofocus>{{query11}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment Cash on Delivery:</label>
+				  <textarea class="form-control" rows="2" id="query12" name="query12" rows="2" cols="5" autofocus>{{query12}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment Credit Card:</label>
+				  <textarea class="form-control" rows="2" id="query13" name="query13" rows="2" cols="5" autofocus>{{query13}}</textarea>
+			</div>
+			
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment Debit Card:</label>
+				  <textarea class="form-control" rows="2" id="query14" name="query14" rows="2" cols="5" autofocus>{{query14}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment E Wallet:</label>
+				  <textarea class="form-control" rows="2" id="query15" name="query15" rows="2" cols="5" autofocus>{{query15}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Payment UPI:</label>
+				  <textarea class="form-control" rows="2" id="query16" name="query16" rows="2" cols="5" autofocus>{{query16}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Prefered Order Cat_ Grocery:</label>
+				  <textarea class="form-control" rows="2" id="query17" name="query17" rows="2" cols="5" autofocus>{{query17}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">PreferedOrderCat_Laptop & Accessory:</label>
+				  <textarea class="form-control" rows="2" id="query18" name="query18" rows="2" cols="5" autofocus>{{query18}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">PreferedOrderCat_Mobile:</label>
+				  <textarea class="form-control" rows="2" id="query19" name="query19" rows="2" cols="5" autofocus>{{query19}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">PreferedOrderCat_Mobile Phone:</label>
+				  <textarea class="form-control" rows="2" id="query20" name="query20" rows="2" cols="5" autofocus>{{query20}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">PreferedOrderCat_Others:</label>
+				  <textarea class="form-control" rows="2" id="query21" name="query21" rows="2" cols="5" autofocus>{{query21}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">MaritalStatus_Married:</label>
+				  <textarea class="form-control" rows="2" id="query22" name="query22" rows="2" cols="5" autofocus>{{query22}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">MaritalStatus_Single:</label>
+				  <textarea class="form-control" rows="2" id="query23" name="query23" rows="2" cols="5" autofocus>{{query23}}</textarea>
+			</div>
+			
+			<div class="form-group  purple-border">
+				  <label for="comment">Complain_1:</label>
+				  <textarea class="form-control" rows="2" id="query24" name="query24" rows="2" cols="5" autofocus>{{query24}}</textarea>
+			</div>
+			
+			
+			
+		
+	
+			</div>
+			<div class="col-sm-3">
+			<button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+			</div>
+		  </form>
+		  </div>
+		  
+		<div class="row"> 
+			<div class="col-sm-9">
+			<textarea class="form-control" rows="2" id="comment" name="query6" rows="2" cols="5" autofocus>{{output1}}</textarea>
+			<textarea class="form-control" rows="2" id="comment" name="query7" rows="2" cols="5" autofocus>{{output2}}</textarea>
+			</div>
+		</div>
+	</div>		
+   </body>
+</html>
