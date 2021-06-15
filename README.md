@@ -15,7 +15,9 @@ Steps involved in predicting customer churn:
 11. Used Flask as a web framework to integrate the back-end Machine Learning model with HTML as front-end. 
 12. Deployed the main.py file on Google Cloud Plarform and it can be accessed here - https://customer-churn-predictor.ew.r.appspot.com
 
-Note: While using the web application, for below variables please enter 0 for "No" and 1 for "Yes"
+# Directions to use Web Application
+
+While using the web application, for below variables please enter 0 for "No" and 1 for "Yes"
 
 Payment COD, Payment Cash on Delivery, Payment Credit Card, Payment Debit Card, Payment E Wallet, Payment UPI, Prefered Order Cat_ Grocery, PreferedOrderCat_Laptop & Accessory,
 PreferedOrderCat_Mobile, PreferedOrderCat_Mobile Phone, PreferedOrderCat_Others, MaritalStatus_Married, MaritalStatus_Single, Complain_1
