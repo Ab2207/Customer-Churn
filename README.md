@@ -29,3 +29,6 @@ Do try it out and feel free to drop in any suggestions to make it better.
 P.S. The front-end UI is not that great as I do not specialise in front-end development. Feel free to fork it and make your own additions and changes. 
 
 ![image](https://user-images.githubusercontent.com/60266394/122073227-2e71ff00-cdf0-11eb-9100-3a7789e85e6d.png)
+
+![image](https://user-images.githubusercontent.com/60266394/122076113-801b8900-cdf2-11eb-98df-1ec0734b0943.png)
+
