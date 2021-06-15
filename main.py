@@ -1,8 +1,4 @@
 import pandas as pd
-import requests
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier 
-from sklearn import metrics
 from sklearn.preprocessing import StandardScaler
 from flask import Flask, request, render_template
 import pickle
@@ -62,24 +58,6 @@ def predict():
        'PreferedOrderCat_Mobile Phone', 'PreferedOrderCat_Others',
        'MaritalStatus_Married', 'MaritalStatus_Single', 'Complain_1'])
         
-        #df_2 = pd.concat([df_1, new_df], ignore_index = True) 
-        # Group the tenure in bins of 12 months
-        #labels = ["{0} - {1}".format(i, i + 11) for i in range(1, 72, 12)]
-        
-        #df_2['tenure_group'] = pd.cut(df_2.Tenure, range(1, 80, 12), right=False, labels=labels)
-        #drop column customerID and tenure
-        #df_2.drop(columns= ['Tenure'], axis=1, inplace=True)   
-        
-        
-        
-        
-        '''new_df__dummies = pd.get_dummies(new_df[['Tenure', 'WareDist', 'Payment', 'AppHours', 'No_of_devices',
-           'PreferedOrderCat', 'SatScore', 'MaritalStatus', 'NumberOfAddress',
-           'Complain', 'AmountHike', 'OrderCount', 'LastOrder', 'CashbackAmount']])'''
-        
-        
-        #final_df=pd.concat([new_df__dummies, new_dummy], axis=1)
-            
         
         single = model.predict(new_df)
         probablity = model.predict_proba(new_df)
